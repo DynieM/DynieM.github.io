@@ -1,0 +1,324 @@
+body {
+ background-color: #f4f3f0;
+}
+#git
+{
+   width: 20%;
+  height: auto;
+  position: relative;
+  left: 400px;
+}
+#link
+{
+   width: 8%;
+  height: auto;
+  position: relative;
+  left: 360px;
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
+  transition: box-shadow 0.3s;
+}
+.btn:hover {
+  /* box-shadow: 0 0 5px rgba(33,33,33);  */
+  transform: scale(1.1);
+}
+.btn.p
+{
+  font-size: 24px;
+  text-decoration: underline;
+  border: none !important;
+}
+.card-header, .card-body
+{
+background-color: #f4f3f0;
+}
+h5
+{
+  text-align: center;
+}
+.container h1 {
+  text-align: center;
+  font-size: 50px;
+  position: relative;
+  right: 230px;
+  top: 80px;
+}
+#aboutme {
+  background-color: #721817;
+}
+#experience {
+  background-color: #fa9f42;
+}
+#projects {
+  background-color: #2b4162;
+}
+#contact {
+  background-color: #0b6e4f;
+}
+#image img {
+  width: 35%;
+  height: auto;
+  position: relative;
+  left: 140px;
+}
+
+#typing {
+  color: #0c0a0a;
+  font-family: monospace;
+  font-size: 50px;
+  position: relative;
+  right: 140px;
+  top: 80px;
+  text-decoration: none;
+}
+* {
+  font-family: monospace;
+}
+
+#typing::before,
+#typing::after {
+  font-weight: bold;
+}
+
+#typing[data-type*="Creative"]::before,
+#typing[data-type*="Developer"]::before,
+#typing[data-type*="Student"]::before {
+  font-weight: normal;
+}
+
+#typing[data-type*="Creative"]::before {
+  content: "I am a ";
+}
+
+#typing[data-type*="Developer"]::before {
+  content: "I am a ";
+}
+
+#typing[data-type*="Student"]::before {
+  content: "I am a ";
+}
+
+.typewrite {
+  font-weight: bold;
+}
+
+.subwork {
+  font-size: 25px;
+  background-color: #f4f3f0;
+}
+
+.card{
+  /* transition-duration: 2s; */
+  
+  border: none !important;
+  
+}
+
+
+.collapsed
+{
+  /* transition-duration: 5s; */
+
+}
+
+
+
+
+
+/* timeline */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#exp {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  text-align: center;
+}
+
+ul {
+  padding: 30px 0;
+}
+
+ul li {
+  position: relative;
+  list-style-type: none;
+  width: 6px;
+  background-color: #2b4162;
+  margin: 0 auto;
+  padding-top: 50px;
+  font-size: 20px;
+}
+
+ul li::after {
+  background: #fa9f42;
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+}
+
+#exp {
+  position: relative;
+  left: 8px;
+  top: 60px;
+  font-size: 50px;
+}
+#exp2 {
+  position: relative;
+  bottom: 70px;
+}
+ul li div {
+  position: relative;
+  width: 400px;
+  padding: 15px;
+  border-radius: 5px;
+  bottom: 0;
+  /* background: #c9c2bc; */
+}
+
+ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+ul li:nth-child(even) div {
+  left: -445px;
+}
+
+time {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+ul li:nth-child(odd) div {
+  transform: translate3d(20px, 0, 0);
+}
+
+ul li:nth-child(even) div {
+  transform: translate3d(-20px, 0, 0);
+}
+
+ul li.show div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+/* media queries */
+
+ @media only screen and (max-width: 1000px) {
+  .typewrite {
+    display: none;
+  }
+  
+
+  .work .btn {
+    
+    margin-left: 50px;
+    margin-bottom: 100px;
+    position: relative;
+    top: 100px;
+   
+  }
+   .work h2
+  {
+     font-size: 1rem;
+  }
+
+  #hi h1 {
+    font-size: 30px;
+    position: relative;
+    right: 55px;
+    top: 112px;
+    margin-top: 20%;
+    white-space: nowrap;
+  }
+  #image img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 150px;
+}
+#git
+{
+   width: 70%;
+  height: auto;
+  position: relative;
+  left: 80px;
+}
+#link
+{
+   width: 28%;
+  height: auto;
+  position: relative;
+  bottom: 95px;
+  left: 50px;
+}
+
+  #exp {
+    font-size: 24px;
+  }
+
+  ul {
+    padding: 20px 0;
+  }
+
+  ul li {
+    width: 4px;
+    padding-top: 40px;
+    font-size: 16px;
+  }
+
+  ul li::after {
+    width: 20px;
+    height: 20px;
+    bottom: -10px;
+  }
+
+  #exp {
+    top: 40px;
+    left: 4px;
+    font-size: 36px;
+  }
+#exp2 {
+  visibility: hidden;
+}
+  ul li div {
+    width: 200px;
+    padding: 10px;
+    bottom: -10px;
+  }
+
+  ul li:nth-child(odd) div {
+    left: 25px;
+  }
+
+  ul li:nth-child(even) div {
+    left: -225px;
+  }
+
+}
+
