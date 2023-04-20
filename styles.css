@@ -294,18 +294,24 @@ ul li.show div {
 }
 #git
 {
-   width: 70%;
+   width: 20%;
   height: auto;
   position: relative;
-  left: 80px;
+  left: 350px;
 }
 #link
 {
-   width: 28%;
+   width: 8%;
   height: auto;
   position: relative;
-  bottom: 95px;
-  left: 50px;
+  left: 320px;
+}
+#mail
+{
+     width: 8%;
+  height: auto;
+   position: relative;
+  left: 350px;
 }
 
   #exp {
